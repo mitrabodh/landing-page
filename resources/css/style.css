@@ -476,7 +476,7 @@ hr {
 }
 
 /* Horizontal line above FAQs heading */
-hr:nth-child(10) {
+hr:nth-child(11) {
     margin-top: 30px;
 }
 
