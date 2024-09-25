@@ -18,6 +18,22 @@
 </head>
 
 <body>
+    <div id="loader">
+        <div class="lds-default">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
     <!-- Header -->
     <header class="header">
         <div class="image-header">
@@ -301,7 +317,16 @@
         </div>
 
     </footer>
+
+    <!-- Script for loader -->
+    <script type="text/babel">
+        window.addEventListener("load", () => {
+            document.getElementById("loader").style.display = "none";
+        });
+    </script>
+
     <script type="text/babel" src="./resources/js/javascript.js"></script>
+
 </body>
 
 </html>
