@@ -13,7 +13,7 @@
 
 /* Loader starts*/
 
-#loader {
+#loading-animation {
     display: flex;
     justify-content: center;
     align-items: center;
