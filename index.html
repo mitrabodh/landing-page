@@ -18,6 +18,8 @@
 </head>
 
 <body>
+
+    <!-- Loading animation -->
     <div id="loading-animation">
         <div class="lds-default">
             <div></div>
@@ -34,6 +36,7 @@
             <div></div>
         </div>
     </div>
+
     <!-- Header -->
     <header class="header">
         <div class="image-header">
@@ -318,13 +321,14 @@
 
     </footer>
 
-    <!-- Script for loader -->
+    <!-- Script for loading animation -->
     <script type="text/babel">
         window.addEventListener("load", () => {
             document.getElementById("loading-animation").style.display = "none";
         });
     </script>
 
+    <!-- Main Javascript file -->
     <script type="text/babel" src="./resources/js/javascript.js"></script>
 
 </body>
